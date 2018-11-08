@@ -212,6 +212,7 @@ ul.languages-list > li:hover > ul.languages-list_sub-menu {
 	cursor: pointer;
 	border: none;
 	background-color: transparent;
+	outline: 0;
 }
 
 .slider_nav_btn:nth-child(1) {
@@ -330,6 +331,10 @@ ul.languages-list > li:hover > ul.languages-list_sub-menu {
 	text-decoration: none;
 	height: 52px;
 	box-sizing: border-box;
+}
+
+.button:hover {
+	background-color: #F58F4C;
 }
 
 .slider_rectangles {
@@ -653,6 +658,10 @@ h3 span {
 	font-family: 'Lato', sans-serif;
 	border: none;
 	cursor: pointer;
+}
+
+.footer_form input:nth-child(2):hover {
+	background-color: #363434;
 }
 
 .footer_form input:first-child::-moz-placeholder {
