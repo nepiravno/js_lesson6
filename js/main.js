@@ -46,7 +46,6 @@ function showCurrentSlide(n) {
 }
 
 function showSlide(n) {   
-  
   var slides = document.getElementsByClassName('slide');
   
   if (n > slides.length) {
